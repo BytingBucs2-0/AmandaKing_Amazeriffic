@@ -30,3 +30,8 @@ header nav {
 main {
 	background: white;
 }
+
+
+footer {
+	clear: both;
+}
