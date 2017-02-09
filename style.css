@@ -35,10 +35,12 @@ main h2, main p, main h3, main ul {
 	float: left;
 	width: 570px;
 }
+
 footer .contact {
 	float: left;
 	width: 570px;
 }
+
 footer .sitemap {
 	width: 285px;
 	float: right;
