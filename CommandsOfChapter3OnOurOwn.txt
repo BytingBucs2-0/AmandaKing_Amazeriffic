@@ -182,3 +182,122 @@ To https://github.com/BytingBucs2-0/AmandaKing_Amazeriffic
 
 circulation@LE-J220-FA-037H MINGW64 /d/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
 $
+
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository
+$ git config --global user.name "Amanda King"
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository
+$ git config --global user.email "aking15@bucs.fsw.edu"
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository
+$ cd AmandaKing_Amazeriffic/
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   CommandsOfChapter3OnOurOwn.txt
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add CommandsOfChapter3OnOurOwn.txt
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add index.html
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add style.css
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git commit -m "Set the lightbulb correct on index.html with style.css"
+[master 4a3e536] Set the lightbulb correct on index.html with style.css
+ 3 files changed, 57 insertions(+)
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git push
+Username for 'https://github.com': aking15@bucs.fsw.edu
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 865 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/BytingBucs2-0/AmandaKing_Amazeriffic
+   14f7dcf..4a3e536  master -> master
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add index.html
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add style.css
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git commit -m "Put correct font on index.html"
+[master ac27635] Put correct font on index.html
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add style.css
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git commit -m "Create footer to look like example"
+[master 8e24ca8] Create footer to look like example
+ 1 file changed, 23 insertions(+)
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git add style.css
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$ git commit -m "Create header to look like example"
+[master 22c16e7] Create header to look like example
+ 1 file changed, 26 insertions(+)
+
+Amanda@Summer MINGW64 /f/Spring 2017/Git-Repository/AmandaKing_Amazeriffic (master)
+$
