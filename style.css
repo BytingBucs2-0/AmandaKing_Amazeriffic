@@ -10,6 +10,16 @@ h1, h2, h3, h4 {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+h1 {
+	font-size: 300%;
+	font-style: italic;
+	font-weight: bold;
+	color: gray;
+	letter-spacing: 3px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
 header, main, footer {
 	min-width: 855px;
 }
@@ -31,6 +41,7 @@ header h1 {
 
 header nav {
 	float: right;
+	padding-top: 5%;
 	width: 285px;
 }
 
@@ -41,6 +52,20 @@ main {
 main h2, main p, main h3, main ul {
 	float: left;
 	width: 570px;
+}
+
+main h2 {
+	font-size: 150%;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding-bottom: 5px;
+}
+
+main h3 {
+	font-size: 125%;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5%;
 }
 
 footer {
@@ -54,6 +79,7 @@ footer h5 {
 footer p:first-of-type {
 	font-style: italic;
 	font-weight: bold;
+	color: gray;
 }
 
 footer .contact {
