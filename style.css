@@ -1,10 +1,12 @@
 /* Amanda King */
 body {
 	background: #f9e933;
+	font-size: 100%;
 	font-family: 'Droid Sans', sans-serif;
 }
 
 h1, h2, h3, h4 {
+	font-size: 100%;
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -41,6 +43,19 @@ main h2, main p, main h3, main ul {
 	width: 570px;
 }
 
+footer {
+	padding-top: 5%;
+}
+
+footer h5 {
+	padding-bottom: 3%;
+}
+
+footer p:first-of-type {
+	font-style: italic;
+	font-weight: bold;
+}
+
 footer .contact {
 	float: left;
 	width: 570px;
@@ -49,4 +64,12 @@ footer .contact {
 footer .sitemap {
 	width: 285px;
 	float: right;
+}
+
+footer .container h5 {
+	font-weight: bold;
+}
+
+footer a {
+	text-decoration: none;
 }
